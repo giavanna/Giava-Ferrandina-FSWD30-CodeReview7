@@ -1,21 +1,21 @@
 
 body {
   background-color: darkgrey;
-  background-image: url("img/background.jpg");
+  margin-bottom: 0px;
 }
 
 .myheader {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: grey ; 
   text-shadow: 2px 2px darkcyan; 
-  box-shadow: 0px 0px 30px 30px brown;
+  box-shadow: 0px 0px 30px 30px black;
   text-align:center;
 
 }
 
-#mylogo{
-  margin-top:15px;
+#mylogoheader{
+  margin-top:10px;
   width: 160px;
   height: 80;
 }
@@ -99,8 +99,14 @@ margin-bottom: 30px;
   height:60px; width:100%; 
   color:grey; font-size: 15px; 
   text-align: center; 
-  margin-top:150px; 
-  padding-top:5px;
-  background-color:black; 
-  box-shadow: 0px 0px 10px 10px darkcyan
+  margin-top:30px; 
+  padding-bottom:30px;
+  background-color:grey; 
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+#mylogofooter{
+  margin-top:0px;
+  width: 100px;
+  height: 50;
 }
